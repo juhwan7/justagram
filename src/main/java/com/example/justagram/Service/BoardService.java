@@ -21,10 +21,11 @@ public class BoardService {
         List<Board> boardList = boardRepository.findAll();
 
         // 출력되는 엔티티를 리스폰스로 바꿔서 출력해야함
-        List<BoardGetListResponse> getListResponses = boardList.stream().map(board -> BoardGetListResponse.BoardListResponse)
+//        List<BoardGetListResponse> getListResponses = boardList.stream().map(board -> BoardGetListResponse.BoardListResponse(boardList))
 
 
-        return listResponse;
+        return boardList;
+
     }
 
     public void postBoard(BoardAddRequest boardAddRequest, User user) {
