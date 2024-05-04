@@ -1,0 +1,19 @@
+secret-key-source: ${SECRET_KEY_SOURCE}
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ENC(R4iAAH0mdrCrfocCSTlDG/5/5sy0gfBRY3B1kSgmkrgsKaMxX3gfsXx3P/V+/OmtQOlaWfZYLQcKnUNHIOtcOfith8gmD2+V6htqsPEVupfDIzvL9c6TzHMhbnnTXXdYdkDDJ9CDsD3c3eDpH/c77GCTDDMR2r57RBlMe4N8rbDdC3ZOXNi0NFrbJRg7Bgg1OTdoggdxS6iBjHgQKKevJQ==)
+    username: ENC(wI1t9W6i2dtbT9zAhf2Euw==)
+    password: ENC(3qCqRa345qTgoZ0l4X0Y1LZAYuU8My+4)
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
