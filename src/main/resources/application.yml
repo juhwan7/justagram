@@ -2,7 +2,7 @@ secret-key-source: ${SECRET_KEY_SOURCE}
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ENC(R4iAAH0mdrCrfocCSTlDG/5/5sy0gfBRY3B1kSgmkrgsKaMxX3gfsXx3P/V+/OmtQOlaWfZYLQcKnUNHIOtcOfith8gmD2+V6htqsPEVupfDIzvL9c6TzHMhbnnTXXdYdkDDJ9CDsD3c3eDpH/c77GCTDDMR2r57RBlMe4N8rbDdC3ZOXNi0NFrbJRg7Bgg1OTdoggdxS6iBjHgQKKevJQ==)
+    url: ENC(7R/inT2WdzYwdoazy7FGCONHyFGI0QGNc0U6UTQQ5AXoycjh8AKoOt7I4Y/Ad+6v6AOdGZynddiVFhuInpQYFOo1eqWD1B26VdqOOPohoGW1vY0rF+pyTuN6BgjbtVsu+uwXyQIdkY47JdxtDZGNzni+ciTXtweRSWSnk9G/oE2YepArN0SajtoJkwBX0gTYCJ/aYV8tj+5GgqdTpaWmVA==)
     username: ENC(wI1t9W6i2dtbT9zAhf2Euw==)
     password: ENC(3qCqRa345qTgoZ0l4X0Y1LZAYuU8My+4)
 
