@@ -1,12 +1,12 @@
 package com.example.justagram.Entity;
 
 import com.example.justagram.Dto.board.request.BoardAddRequest;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
