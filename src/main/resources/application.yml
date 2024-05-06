@@ -11,8 +11,16 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+        use_sql_comments: true
     hibernate:
       ddl-auto: update
+    generate-ddl: false
+    database: mysql
+    defer-datasource-initialization: true
+    open-in-view: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
 jasypt:
   encryptor:

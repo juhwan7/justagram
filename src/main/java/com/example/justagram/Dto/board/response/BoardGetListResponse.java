@@ -2,7 +2,6 @@ package com.example.justagram.Dto.board.response;
 
 import com.example.justagram.Entity.Board;
 import com.example.justagram.Entity.User;
-import jakarta.persistence.*;
 import lombok.Builder;
 
 import java.sql.Timestamp;
